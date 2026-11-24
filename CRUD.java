@@ -2,37 +2,36 @@ import javax.swing.JOptionPane;
 
 public class CRUD {
     public static void main (String[] args){
-        String[] opcoes = {"Opção 1", "Opção 2", "Opção 3", "Sair"};
+        String [] opcoes = {"Create", "Remove", "Update", "Delete"};
         boolean continuar = true;
 
         while (continuar) {
             int escolha = JOptionPane.showOptionDialog(
-                    null,
-                    "Escolha uma opção:",
-                    "Menu Principal",
-                    JOptionPane.DEFAULT_OPTION,
-                    JOptionPane.INFORMATION_MESSAGE,
-                    null,
-                    opcoes,
-                    opcoes[0]
+                null,
+                "Biblioteca de Jogos",
+                "Bem vindo a Luderia",
+                JOptionPane.DEFAULT_OPTION,
+                JOptionPane.INFORMATION_MESSAGE,
+                null,
+                opcoes,
+                opcoes[0]
             );
-            
+
             switch (escolha) {
-                case 0: // Opção 1
-                    JOptionPane.showMessageDialog(null, "Você escolheu a Opção 1!");
+                case 0:
+                    JOptionPane.showMessageDialog(null, "Create");
                     break;
-                case 1: // Opção 2
-                    JOptionPane.showMessageDialog(null, "Você escolheu a Opção 2!");
+                case 1:
+                    JOptionPane.showMessageDialog(null, "Remove");
                     break;
-                case 2: // Opção 3
-                    JOptionPane.showMessageDialog(null, "Você escolheu a Opção 3!");
+                case 2:
+                    JOptionPane.showMessageDialog(null, "Update");
                     break;
-                case 3: // Sair
-                    JOptionPane.showMessageDialog(null, "Saindo do programa...");
-                    continuar = false;
+                case 3:
+                    JOptionPane.showMessageDialog(null, "Delete");
                     break;
                 default:
-                    JOptionPane.showMessageDialog(null, "Nenhuma opção válida foi selecionada.");
+                    JOptionPane.showMessageDialog(null, "Saindo...");
                     continuar = false;
                     break;
             }
