@@ -28,25 +28,17 @@ A aplicação abre uma interface gráfica com opções para gerenciar o catálog
 
 ## Capturas de tela
 
-### Tela principal
+| Tela principal | Adicionar jogo |
+|:---:|:---:|
+| ![Tela principal](imagens/{27898E5B-67FE-4481-BE1E-46E0DDC87630}.png) | ![Adicionar jogo](imagens/{E3D6218B-BA3E-448C-ADF9-C8516587DA72}.png) |
 
-![Biblioteca de Jogos](imagens/{27898E5B-67FE-4481-BE1E-46E0DDC87630}.png)
-
-### Catálogo de jogos
-
-![Catálogo de jogos](imagens/{F93324F1-572C-4CC6-963C-227925A9E51F}.png)
-
-### Adicionar jogo
-
-![Adicionar jogo](imagens/{E3D6218B-BA3E-448C-ADF9-C8516587DA72}.png)
-
-### Atualizar jogo
-
-![Selecione o jogo para atualizar](imagens/{EFB274C3-B637-4350-86AC-2A50B8528927}.png)
+| Consultar catálogo | Atualizar jogo |
+|:---:|:---:|
+| ![Catálogo de jogos](imagens/{F93324F1-572C-4CC6-963C-227925A9E51F}.png) | ![Selecionar jogo para atualizar](imagens/{EFB274C3-B637-4350-86AC-2A50B8528927}.png) |
 
 ### Remover jogo
 
-![Selecione o jogo para remover](imagens/{8B34518E-0FD8-4F12-A9A7-17EA3B312879}.png)
+![Selecionar jogo para remover](imagens/{8B34518E-0FD8-4F12-A9A7-17EA3B312879}.png)
 
 ## Formato dos dados
 
